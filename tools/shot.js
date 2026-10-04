@@ -1,0 +1,4 @@
+const {chromium}=require('/opt/node22/lib/node_modules/playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
+for(const f of process.argv.slice(2)){await p.goto('file://'+require('path').resolve(f));await p.waitForTimeout(300);await p.screenshot({path:f.replace(/\.html$/,'.png')});}
+await b.close();})();
