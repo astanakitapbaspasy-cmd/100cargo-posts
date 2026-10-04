@@ -1,7 +1,7 @@
 # 100cargo.kz — Instagram posts
 
 The user is not a programmer: explain things simply, in Russian. Don't ask them to re-explain the project.
-Before scheduling any post, show the slides and wait for a «да».
+The user asked (Oct 4) for posts to be scheduled straight away, without showing them first.
 
 ## Metricool
 - Brand id 7208883, timezone Asia/Almaty, weekdays at 10:00.
@@ -26,7 +26,8 @@ Before scheduling any post, show the slides and wait for a «да».
 - Hashtags: #wildberries #вб #бизнес #алматы #қазақстан #100cargo
 - Never make up numbers: every figure needs a source on the slide.
 
-## Schedule (alternate old/new)
-Oct 5 car wash · 6 iPhone ✅ · 7 coffee shop · 8 infobusiness · 9 fitness · 12 той · 13 barbershop · 14 Dubai · 15 tyre shop ·
-16 car loan · 19 cakes · 20 deposit · 21 flowers · 22 PS5 · 23 salons · 26 brand clothes · 27 kids rooms · 28 rims/tuning · 29 той gifts.
-Oct 30: test draft «ТЕСТ GitHub — удалить» — the user deletes it by hand.
+## Schedule (alternate old/new) — all 19 posts are in Metricool ✅
+Oct 5 car wash · 6 iPhone · 7 coffee shop · 8 infobusiness · 9 fitness · 12 той · 13 barbershop · 14 Dubai · 15 tyre shop ·
+16 car loan · 19 cakes · 20 deposit · 21 flowers · 22 PS5 · 23 salons · 26 brand clothes · 27 kids rooms · 28 rims · 29 той envelopes.
+The test draft became the Oct 29 post (the Metricool MCP can't delete posts).
+Next: batch 3 (up to 30 posts), from Oct 30, keep alternating the two series.
