@@ -38,5 +38,5 @@ post.slides.forEach((s,i)=>{
  } else { // text
   h=`<body><div class=bar></div><div class=lbl>${s.label}</div><div class=big>${s.title}</div><div class=blk style="top:${s.top||820}px"><div class=txt>${s.text||''}</div></div>${s.arrow?'<div class=arrow>↑</div>':''}${foot}`;
  }
- fs.writeFileSync(path.join(out,`s${i+1}.html`),`<html><head><meta charset=utf-8><style>${css}</style></head>${h}</body></html>`);
+ fs.writeFileSync(path.join(out,`s${i+1}.html`),`<html><head><meta charset=utf-8><style>${css}</style></head>${h}</body><script>document.querySelectorAll('.num').forEach(e=>{let f=parseFloat(getComputedStyle(e).fontSize);while(e.getBoundingClientRect().width>910&&f>60){f-=4;e.style.fontSize=f+'px'}});</script></html>`);
 });
